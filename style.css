@@ -9,13 +9,8 @@ body {
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
         "Lucida Sans", Arial, sans-serif;
     text-align: center;
-    
-    
 }
-
-img {
-    max-width: 560px;
-}
+    /* head */
 
 header {
     background-color: rgba(221, 129, 81, 0.3);
@@ -26,7 +21,7 @@ header {
 #festival-dates {
     margin: 5px;
 }
-         
+
 
 nav {
     background-color: rgba(221, 129, 81, 0.3);
@@ -34,38 +29,50 @@ nav {
     text-align: center;
 }
 
-a {
-    color: brown;
-}
 header {
     border: 1px solid #b03b31;
 }
+
 nav {
     border: 1px solid #b03b31;
 }
+
 h1 {
     display: inline;
     font-family: 'Righteous', cursive;
     font-size: 50px;
     color: #b03b31;
     text-align: center;
-   
+
 }
 
+
+
+
+/* body */
+img {
+    max-width: 560px;
+}
+
+a {
+    color: brown;
+}
+        
+        
 h2 {
     color: #b03b31;
 }
-
+        
 h3 {
     color: #b03b31;
 }
-
+        
 h4 {
     color: #b03b31;
 }
-
-
-
+        
+        
+        
 p {
     color: #b03b31;
     word-wrap: break-word;
@@ -73,35 +80,10 @@ p {
     text-align: center;
     margin: auto;
 }
-
+        
 section {
     text-align: center;
 }
-
-/* aside {
-        color: #b03b31;
-        width: 20%;
-        max-width: 150px;
-        min-width: 100px;
-        float: left;
-        margin-top: 30px;
-      } */
-article {
-    text-align: center;
-}
-
-#google-maps {
-    padding-bottom: 20px;
-}
-
-
-.footer {
-    display: block;
-    margin: 5px;
-}
-
-
-
 
 .container {
     position: relative;
@@ -151,6 +133,49 @@ article {
 .artist-photo {
     max-width: 560px;
     margin: auto;
-        height: 336px;
+    height: 336px;
     width: 560px;
 }
+        
+                /* aside {
+                color: #b03b31;
+                width: 20%;
+                max-width: 150px;
+                min-width: 100px;
+                float: left;
+                margin-top: 30px;
+              } */
+article {
+    text-align: center;
+}
+        
+#google-maps {
+    padding-bottom: 20px;
+}
+
+    /* footer */
+
+
+
+
+.footer {
+    display: block;
+    margin: 5px;
+}
+
+.footer-left {
+    float: left;
+}
+
+.footer-right {
+    
+    text-align: right;
+    float: right;
+}
+
+
+table {
+    margin: 0;
+    width: 100%;
+}
+
