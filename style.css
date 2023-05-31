@@ -158,24 +158,40 @@ article {
 
 
 
-.footer {
+/* .footer {
     display: block;
     margin: 5px;
 }
 
 .footer-left {
     float: left;
+    padding-left: 25%;
 }
 
 .footer-right {
     
-    text-align: right;
     float: right;
-}
-
-
-table {
+    padding-right: 25%;
     margin: 0;
+} */
+
+
+/* table {
+    
     width: 100%;
 }
+ */
 
+.footer-items p {
+    display: inline-block;
+}
+
+ .footer-left {
+text-align: left;
+width: 50%;
+ }
+
+ .footer-right {
+    text-align: right;
+    width: 10%;
+ }
